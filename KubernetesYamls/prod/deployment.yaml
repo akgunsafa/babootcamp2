@@ -8,7 +8,7 @@ spec:
   selector:
     matchLabels:
       app: bootcamp2-html
-  replicas: 3
+  replicas: 1
   strategy:
     type: RollingUpdate
     rollingUpdate:
